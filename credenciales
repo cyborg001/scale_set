@@ -1,0 +1,25 @@
+az policy definition create -n "tagging-policy" --display-name "deny no tagss" --description "This policy denies every resource which doesnt have tags" --rules tagging.json
+az policy assignment create --policy  "tagging-policy"
+packer build .\project\server.json
+az group -n udacity-rg -l eastus  <---crear grupo
+
+username: odl_user_200579@udacityhol.onmicrosoft.com
+password: ecmn30JLT*u7
+Application Id: b9c95464-8dfe-447e-b975-5324774a6270
+Display Name: https://odl_user_sp_200579
+Secret Key: WYt8Q~uN-OklpJ31Ikgk_T9CzKduwnyTXkjiVc9R"
+Subscription Id: 5575e80b-f0da-4822-a386-38229fd50c58
+Tenant Id: f958e84a-92b8-439f-a62d-4f45996b6d07
+Tenant Domain Name: udacityhol.onmicrosoft.com
+
+buenos libros a leer:
+Pragmatic A.I.: An introduction to Cloud-Based Machine Learning (Pearson, 2018)
+Python for DevOps (O'Reilly, 2020).
+Cloud Computing for Data Analysis, 2020
+Testing in Python, 2020
+Python Command Line Tools, 2020
+Minimal Python, 2020
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
